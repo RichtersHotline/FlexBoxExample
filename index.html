@@ -4,8 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlexBoxExample</title>
+    <link rel="stylesheet" href="Styles/style.css">
 </head>
 <body>
-    
+    <div class="container">
+<h1>FlexBox<h1>
+    <h2>display:flex</h2>
+    <p>Using display:flex in a container will cause every child in that container to adhere to the container's flex rules</p>
+    <h2>Here are some examples:</h2>
+    <div class="Blocks">
+        <div class="Block1">1</div>
+        <div class="Block1">2</div>
+
+    </div>
+    <p>In the above example the two blocks were put in a container named "Blocks" in this container using css 
+        display:flex was specified this caused the blocks to be placed next to each other instead of below
+    </p>
+    <h2>Flex Spacing</h2>
+    <p>You can also set the spacing between flex children</p>
+    <div class="Blocks2">
+    <div class="Block2">1</div>
+    <div class="Block2">2</div>
+    </div>
+    <p>justify-content:space-between;</p>
+    <div class="Blocks3">
+        <div class="Block3">1</div>
+        <div class="Block3">2</div>
+        </div>
+        <p>Space-Evenly</p>
+        <div class="Blocks4">
+            <div class="Block4">1</div>
+            <div class="Block4">2</div>
+            </div>
+            <p>You can center elements too with flexbox how neat!</p>
+            <p>There are others too like flex-end and flex-start as well flexbox is flexible.</p>
+            <h2>Flex-Direction</h2>
+            <p>By default the flex-direction is set to row (as seen above) however you can change it as you see fit</p>
+                <div class="Blocks5">
+                    <div class="Block5">1</div>
+                    <div class="Block5">2</div>
+                    </div>
+                    <p>by using flex-direction: column we're able to reverse this now the elements are ontop of eachother!</p>
+                    <div class="Blocks7">
+                        <div class="Block7">1</div>
+                        <div class="Block7">2</div>
+                        </div>
+                        <p>You can even reverse the order using flex-direction: row-reverse.
+                   <div class="Rectangle">
+                   <div class="Fill"></div>
+                    <div class="Fill"></div>
+
+                   </div>
+                    <p>Using align-items:stretch in our container and flex-grow: in our child div we're able to make flex elements stretch to the full size of their respective divs
+                </div>
 </body>
 </html>
